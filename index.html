@@ -21,35 +21,49 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 
 <body class="font-plusJakarta">
-    <nav>
+    <header class="fixed w-full">
+        <nav class="w-full">
         <!-- Upper Content -->
-         <div class="w-full h-max">
+         <div class="flex w-full h-max overflow-hidden">
          <!-- Left side -->
-          <div class="bg-primary rounded-lg w-2/3 py-4 px-2">
-            <ul class="flex gap-5">
+          <div class="bg-primary rounded-br-full shadow-lg w-2/3 py-2 px-4 absolute z-0">
+            <ul class="flex gap-8">
                 <li>
-                    <p class="text-white"><i class="fa-solid fa-envelope"></i> accalls.indonesia@gmail.com</p>
+                    <p class="text-white"><i class="fa-solid fa-envelope mr-2"></i> accalls.indonesia@gmail.com</p>
                 </li>
                 <li>
-                    <p class="text-white"><i class="fa-brands fa-whatsapp"></i> 0813-1726-6950</p>
+                    <p class="text-white"><i class="fa-brands fa-whatsapp mr-2"></i> 0813-1726-6950</p>
                 </li>
                 <li>
-                    <p class="text-white"><i class="fa-solid fa-location-dot"></i> Jl.Delima Raya No.139, Pancoran Mas, Kota Depok</p>
+                    <p class="text-white"><i class="fa-solid fa-location-dot mr-2"></i> Jl.Delima Raya No.139, Pancoran Mas, Kota Depok</p>
                 </li>
             </ul>
           </div>
          <!-- Left side end -->
 
          <!-- Right Side -->
-          <div>
-
+          <div class="w-full bg-secondary flex justify-end items-center py-2 px-12">
+            <ul class="flex gap-6"> 
+                <li>
+                    <a class="text-white" href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a class="text-white" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a class="text-white" href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class="text-white" href=""><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
           </div>
          <!-- Right Side End-->
         <!-- Upper Content End -->
          </div>
 
        <!-- Lower Content -->
-        <div class="flex justify-between w-full shadow-md py-2 px-10">
+        <div class="bg-white flex justify-between w-full shadow-md px-10">
             <!-- Left Side -->
              <div class="flex justify-start w-2/3">
 
@@ -68,7 +82,7 @@
                         <a class="hover:border-b-2 hover:pb-1 hover:border-primary transition-all ease-in-out font-medium" href="">Kejuruan</a>
                     </li>
                     <li>
-                        <a class="hover:border-b-2 hover:pb-1 hover:border-primary transition-all ease-in-out font-medium flex" href="">Pelatihan <span><i class="fa-solid fa-caret-down"></i></span></a>
+                        <a class="hover:border-b-2 hover:pb-1 hover:border-primary transition-all ease-in-out font-medium flex" href="">Pelatihan <span class="ml-2"><i class="fa-solid fa-caret-down"></i></span></a>
                     </li>
                     <li>
                         <a class="hover:border-b-2 hover:pb-1 hover:border-primary transition-all ease-in-out font-medium" href="">Magang</a>
@@ -92,5 +106,7 @@
         </div>
         <!-- Lower Content End -->
     </nav>
+    </header>
+
 </body>
 </html>
